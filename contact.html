@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Contact</title>
+    <link rel="stylesheet" href="css/locations.css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Stoke&display=swap" rel="stylesheet">
+</head>
+<body>
+        <img class="background" src="images/contact.jpeg" alt="coffee">
+        <img class="logo" src="images/coffeeshop.png" alt="logo">
+        <h1 id="navTitle">Busy Bean</h1>
+        <nav class="primeNav">
+            <a class="primeLink" href="index.html">Home</a>
+            <a class="primeLink" href="locations.html">Locations</a>
+            <a class="primeLink" href="history.html">History</a>
+            <a class="currentLink" href="contact.html">Contact</a>
+            <div class="dropdown">
+                <a class="primeLink" href="shop.html">Shop<i class="fa fa-caret-down"></i></a>
+                <div class="dropdown-content">
+                    <a class="shopLink" href="merch.html">Merch</a>
+                    <a class="shopLink" href="beverages.html">Beverages</a>
+                    <a class="shopLink" href="menu.html">Menu</a>
+                </div>
+            </div>
+        </nav>
+
+    <h1 class="apply">CONTACT</h1>
+    <form id="applyForm" action="thanks.html" method="get">
+        <h2 class="formHeader">Contact Busy Bean</h2>
+        <h3>Phone Number<br>
+        (517)-555-7492
+    </h3>
+        <p class="formLabel">
+            Name (required)<br>
+            <label for="firstname"></label>
+            <input id="firstname" name="firstname" placeholder="First Name" type="text">
+            <label for="lastname"></label>
+            <input id="lastname" name="lastname" placeholder="Last Name" type="text">
+        </p>
+        <p class="formLabel">
+            Email (required) <br>
+            <label for="email"></label>
+            <input id="email" name="email" placeholder="Email" type="text">
+        </p>
+        <p class="formLabel">
+            Phone Number (optional)<br>
+            <label for="tel"></label>
+            <input id="tel" name="tel" placeholder="(***)-***-****" type="tel">
+        </p>
+        <p class="formLabel">
+            Subject (required)<br>
+            <label for="zipCode"></label>
+            <input id="zipCode" name="zipCode" placeholder="Subject Line">
+        </p>
+        <p class="formLabel">
+            Message <br>
+            <textarea for="message" cols="45" rows= "20" id="message" placeholder="Type message here"></textarea>
+        </p>
+        <input type="submit" class="thanks" value="Submit">
+        <input type="reset" class="thanks" value="Clear">
+    </form>
+    <footer>
+            <a class="secondaryLink" href="images/wireframe.jpg">Wireframe</a>
+            <a class="secondaryLink" href="template.html">Template</a>
+            <a class="secondaryLink" href="about_us.html">About Us</a>
+            <a class="secondaryLink" href="apply.html">Apply</a>
+            <p class="footerText">Copyright 2019 Busy Bean Cafe</p>
+</footer>
+<span class="span2"></span>
+<script src="https://code.jquery.com"></script>
+<script src="java_script/jquery-3.4.1.js"></script>
+<script src="java_script/jquery.validate.js"></script>
+<script src="java_script/thanks.js"></script>
+</body>
+</html>

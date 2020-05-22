@@ -1,0 +1,337 @@
+body {
+   background-color: #dda67e;
+   width: 100%;
+
+}
+
+.background {
+    width: 100%;
+    position: absolute;
+    float: left;
+    z-index:-15;
+    opacity: .7;
+}
+.background1 {
+    width: 100%;
+    position: absolute;
+    z-index:-15;
+    opacity: .3;
+
+}
+.background2 {
+    width: 100%;
+    position: absolute;
+    z-index:-15;
+    opacity: .5;
+
+}
+
+/* Modal Content */
+.bg-modal {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    border-radius: 4px;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+input {
+    width: 50%;
+    margin: 15px auto;
+    display: block;
+}
+
+.close {
+    position: absolute;
+    top: 0;
+    right: 14px;
+    font-size: 42px;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+
+.thanksAge {
+    background-color:#662d0d;
+    color: #ed9242;
+    padding: 3%;
+    border-radius: 1em;
+    margin-top: 15px;
+    margin-bottom: 3%;
+}
+
+.thanksAge:hover {
+    border: 1px solid black;
+}
+/* Top Bar and Top Nav including logo and title */
+
+.logo {
+    float: left;
+    z-index: 19;
+    position: relative;
+}
+.primeNav{
+    background-color:  #bc7329;
+    padding: 4% 4% 2.5% 4%;;
+    width: 93%;
+    margin-right: 4%;
+    text-align: right;
+    opacity: .6;
+    margin-bottom: 13%;
+}
+
+.primeLink {
+    display: inline-block;
+    margin-right: 1%;
+    border-right: 1px solid black;
+    font-size: 22px;
+    padding-right: 1%;
+    text-decoration: none;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.primeLink:hover {
+    color: black;
+}
+.currentLink {
+    display: inline-block;
+    margin-right: 1%;
+    border-right: 1px solid black;
+    font-size: 22px;
+    padding-right: 1%;
+    text-decoration: none;
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* Dropdown CSS */
+.dropdown {
+    float: right;
+    overflow: hidden;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    right: 0;
+    padding-top: 0.8%;
+    padding-bottom: 0.8%;
+    padding-right: 1%;
+    width: 30%;
+    z-index: 1;  
+}
+
+.dropdown-content a{
+    float: right;
+    text-align: left;
+    border-right: 1px solid black;
+    padding-left: 1%;
+    padding-right: 1%;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.dropdown-content a:first-child {
+    border-right: none;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Main Content */
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Stoke', serif;
+    float: left;
+    margin-left: 10%;
+    padding-top: 1%;
+}
+
+h3 {
+    margin-top: 6%;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    padding: 2%;
+    clear: both;
+    font-size: 35px;
+}
+
+.text {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-size: 25px;
+}
+
+.enjoy {
+    font-family: 'Stoke', serif;
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding: 2%;
+    margin-top: 47%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 8%;
+    font-size: 30px;
+}
+.merch {
+    font-family: 'Stoke', serif;
+    text-align: center;
+    padding: 2%;
+    margin-left: 30%;
+    margin-right: 30%;
+    font-size: 60px;
+    margin-bottom: 30%;
+}
+
+#parent {
+    display: flex;
+    justify-content: center;
+}
+
+/* Card layout for various pages */
+.lounge {
+    text-decoration: none;
+    background-color:  #ed9242;
+    padding: 2%;
+    margin-left: 1%;
+    border: 2px solid black;
+    width: 20%;
+    border-radius: 3em;
+    box-shadow: 5px 7px #877c72;
+    margin-bottom: 4%;
+    margin-right: 2%;
+    justify-content: center;
+}
+
+.study {
+    text-decoration: none;
+    background-color: #bc7329;
+    padding: 2%;
+    border: 2px solid black;
+    width: 20%;
+    border-radius: 3em;
+    box-shadow: 5px 7px #877c72;
+    margin-bottom: 4%;
+    margin-right: 2%;
+}
+.drink {
+    text-decoration: none;
+    background-color:  #662d0d;
+    color: #bc7329;
+    padding: 2%;
+    border: 2px solid black;
+    width: 20%;
+    border-radius: 3em;
+    box-shadow: 5px 7px #383736;
+    margin-bottom: 4%;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+}
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 12.5%;
+    right: 0;
+    background-color: black;
+    opacity: 0.7;
+    overflow: hidden;
+    width: 77%;
+    height: 0;
+    transition: 0.5s ease;
+    border-radius: 1em 1em 1em 1em;
+}
+
+.lounge:hover .overlay {
+    height: 100%;
+}
+
+.study:hover .overlay {
+    height: 100%;
+}
+
+.drink:hover .overlay {
+    height: 100%;
+}
+
+.description {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+
+/* Motto */
+.motto {
+    font-style: italic;
+    text-align: justify;
+    width: 36%;
+    margin-left: 31%;
+    margin-right: 33%;
+    padding: 2%;
+    background-color:  #bc7329;
+    border-radius: 1em;
+    box-shadow: 5px 7px #7a7367;
+    font-size: 22px;
+    font-family: 'Playfair Display', serif;
+}
+/* Images */
+#lounge {
+    max-width: 100%;
+    border-radius: 1em 1em 1em 1em;
+    margin-left: 5%;
+
+}
+#study {
+    max-width: 100%;
+    border-radius: 1em 1em 1em 1em;
+    margin-left: 5%;
+
+}
+#drink {
+    max-width: 100%;
+    border-radius: 1em 1em 1em 1em;
+    margin-left: 5%;
+}
+
+/* Footer */
+footer {
+    margin-top: 10%;
+    background-color: #662d0d;
+    padding: 2%;
+}
+footer a{
+    margin-left: 1%;
+    color: white;
+    text-decoration: none;
+    border-right: 1px solid black;
+    padding-right: 1%;
+
+}
+.footerText {
+    float: right;
+    color: white;
+}

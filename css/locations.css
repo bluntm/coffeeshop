@@ -1,0 +1,408 @@
+body {
+    background-color: #dda67e;
+    width: 100%;
+ 
+ }
+.background {
+    width: 100%;
+    position: absolute;
+    z-index:-15;
+    opacity: .3;
+}
+.background1 {
+    width: 100%;
+    position: absolute;
+    z-index:-15;
+    opacity: .5;
+}
+/* Top Bar and Top Nav including logo and title */
+
+.logo {
+    float: left;
+    position: relative;
+    z-index: 6;
+}
+.primeNav{
+    background-color:  #bc7329;
+    padding: 4% 4% 2.5% 4%;;
+    width: 93%;
+    margin-right: 4%;
+    text-align: right;
+    opacity: .6;
+    margin-bottom: 10%;
+}
+
+.primeLink {
+    display: inline-block;
+    margin-right: 1%;
+    border-right: 1px solid black;
+    font-size: 22px;
+    padding-right: 1%;
+    text-decoration: none;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.primeLink:hover {
+    color: black;
+}
+.currentLink {
+    display: inline-block;
+    margin-right: 1%;
+    border-right: 1px solid black;
+    font-size: 22px;
+    padding-right: 1%;
+    text-decoration: none;
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* Dropdown CSS */
+.dropdown {
+    float: right;
+    overflow: hidden;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    right: 0;
+    padding-top: 0.8%;
+    padding-bottom: 0.8%;
+    padding-right: 1%;
+    width: 30%;
+    z-index: 1;  
+}
+
+.dropdown-content a{
+    float: right;
+    text-align: left;
+    border-right: 1px solid black;
+    padding-left: 1%;
+    padding-right: 1%;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.dropdown-content a:first-child {
+    border-right: none;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* All other CSS*/
+.locations {
+    font-size: 60px;
+    font-family: 'Stoke', serif;
+    z-index: 6;
+    text-align: center;
+    margin-bottom: 30%;
+}
+
+.about {
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Stoke', serif;
+    z-index: 6;
+    margin-bottom: 25%;
+}
+
+.apply {
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Stoke', serif;
+    z-index: 6;
+    margin-bottom: 30%;
+}
+
+h3 {
+    margin-top: 6%;
+    padding: 2%;
+    text-align: center;
+    font-family: 'Stoke', serif;
+    font-size: 15px;
+}
+
+#navTitle {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Stoke', serif;
+    float: left;
+    margin-left: 10%;
+    padding-top: 1%;
+}
+
+.h {
+    text-align: center;
+}
+
+.formHeader {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 3%;
+}
+
+.hh {
+    text-align: center;
+    border-bottom: 1px solid black;
+    margin-left: 30%;
+    margin-right: 30%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+}
+
+/* Locations and Hours */
+.lansing1 {
+    width: 20%;
+    margin-right: 25%;
+    margin-bottom: 6%;
+    background-color: #ed9242;
+    float: left;
+    margin-left: 3%;
+    padding: 4%;
+    border: 1px solid black;
+    height: 150px;
+    padding-top: 2%;
+}
+
+.lansing2 {
+    width: 20%;
+    margin-right: 20%;
+    background-color:  #662d0d;
+    color: #bc7329;
+    float: left;
+    margin-left: 3%;
+    padding: 4%;
+    border: 1px solid black;
+    height: 150px;
+    padding-top: 2%;
+    margin-top: 5%;
+}
+
+.hours1 {
+    width: 20%;
+    float: right;
+    padding: 4%;
+    margin-bottom: 6%;
+    background-color:  #662d0d;
+    color: #bc7329;
+    margin-right: 3%;
+    border: 1px solid black;
+    height: 150px;
+    padding-top: 2%;
+}
+
+.hours2 {
+    width: 20%;
+    float: right;
+    padding: 4%;
+    background-color: #ed9242;
+    margin-right: 3%;
+    border: 1px solid black;
+    margin-bottom: 15%;
+    height: 150px;
+    padding-top: 2%;
+    margin-top: 5%;
+}
+
+p {
+    text-align: center;
+}
+
+.vl{
+    position: absolute;
+    display: block;
+    overflow: hidden; 
+    border-left: 5px solid black;
+    height: 670px;
+    position: absolute;
+    margin-left: 48%;
+    margin-top: 0%;
+}
+
+.span1{
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    border-top: 5px solid black;
+}
+  
+  
+br {
+    clear: both;
+}
+
+footer {
+    margin-top: 10%;
+    background-color: #662d0d;
+    padding: 2%;
+    clear: both;
+}
+
+.secondaryLink{
+    margin-left: 1%;
+    color: white;
+    text-decoration: none;
+    border-right: 1px solid black;
+    padding-right: 1%;
+
+}
+
+.footerText {
+    float: right;
+    color: white;
+}
+
+.span2{
+    clear: both;
+}
+
+.history {
+    width: 36%;
+    margin-left: 31%;
+    margin-right: 33%;
+    text-align: justify;
+    background-color:  #ed9242;
+    padding: 2%;
+    border-radius: 1em;
+    box-shadow: 5px 7px #877c72;
+}
+
+.location{
+    width: 30%;
+    float: left;
+    text-align: justify;
+    display: grid;
+    background-color:  #ed9242;
+    padding: 2%;
+    border-radius: 1em;
+    box-shadow: 5px 7px #877c72;
+    margin-bottom: 10%;
+    margin-left: 7%;
+}
+
+.location2{
+    width: 30%;
+    float: right;
+    text-align: justify;
+    display: grid;
+    background-color:  #ed9242;
+    padding: 2%;
+    border-radius: 1em;
+    box-shadow: 5px 7px #877c72;
+    margin-bottom: 10%;
+    margin-right: 7%;
+}
+
+.hhh {
+    font-size: 20px;
+    color: #662d0d;
+    text-align: left;
+}
+
+.smallBox {
+    background-color: #662d0d;
+    padding: 2%;
+    max-width: 100%;
+    color: #ed9242;
+    width: 50%;
+    margin-bottom: 4%;
+    float: right;
+    border-radius: 1em;
+    box-shadow: 5px 7px gray;
+}
+
+.smallbox2 {
+    background-color: #662d0d;
+    padding: 2%;
+    max-width: 100%;
+    color: #ed9242;
+    width: 50%;
+    float: right;
+    border-radius: 1em;
+    box-shadow: 5px 7px gray;
+}
+
+#parent {
+    display: flex;
+    justify-content: center;
+}
+
+#history {
+    max-width: 100%;
+    margin: 2em;
+    border-radius: 1em;
+    box-shadow: 5px 7px #7a7367;
+}
+
+#applyForm {
+    background-color:  #ed9242;
+    box-shadow: 5px 7px #7a7367;
+    border-radius: 1em;
+    border: 1px solid black;
+    width: 33%;
+    padding: 4%;
+    padding-bottom: 6%;
+    margin-left: 33%;
+    margin-right: 33%;
+}
+
+.formLabel {
+    text-align: justify;
+    font-family: 'Stoke', serif;
+}
+
+label {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.thanks {
+    float: right;
+    margin-right: 3%;
+    margin-top: 2%;
+    background-color:#662d0d;
+    color: #ed9242;
+    padding: 3%;
+    border-radius: 1em;
+    margin-bottom: 3%;
+}
+
+.thanks:hover {
+    border: 1px solid black;
+}
+
+.thanksPage {
+    width: 36%;
+    margin-left: 31%;
+    margin-right: 33%;
+    margin-top: 16%;
+    margin-bottom: 5%;
+    text-align: justify;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color:  #ed9242;
+    border-radius: 1em;
+    box-shadow: 5px 7px #877c72;
+}
+
+.thanksButton {
+    float: right;
+    margin-right: 5%;
+    margin-top: 10%;
+    background-color:#662d0d;
+    color: #ed9242;
+    padding: 2%;
+    border-radius: 1em;
+    text-decoration: none;
+}
+
+.thanksButton:hover {
+    border: 1px solid black;
+}
+
+#applyForm label.error {
+display: block;
+color: rgb(250, 0, 0);
+}
