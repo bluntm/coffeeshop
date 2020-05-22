@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Apply</title>
+    <link rel="stylesheet" href="css/locations.css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Stoke&display=swap" rel="stylesheet">
+</head>
+<body>
+        <img class="background1" src="images/apply.jpeg" alt="coffee">
+        <img class="logo" src="images/coffeeshop.png" alt="logo">
+        <h1 id="navTitle">Busy Bean</h1>
+        <nav class="primeNav">
+            <a class="primeLink" href="index.html">Home</a>
+            <a class="primeLink" href="locations.html">Locations</a>
+            <a class="primeLink" href="history.html">History</a>
+            <a class="primeLink" href="contact.html">Contact</a>
+            <div class="dropdown">
+                <a class="primeLink" href="shop.html">Shop<i class="fa fa-caret-down"></i></a>
+                <div class="dropdown-content">
+                    <a class="shopLink" href="merch.html">Merch</a>
+                    <a class="shopLink" href="beverages.html">Beverages</a>
+                    <a class="shopLink" href="menu.html">Menu</a>
+                </div>
+            </div>
+        </nav>
+
+    <h1 class="apply">APPLY</h1>
+    <form id="applyForm" action="thanks.html" method="get">
+        <h2 class="formHeader">Want to join out team?<br> Please submit your information below.</h2>
+        <p class="formLabel">
+            Name (required)<br>
+            <label for="firstname"></label>
+            <input id="firstname" name="firstname" placeholder="First Name" type="text">
+            <label for="lastname"></label>
+            <input id="lastname" name="lastname" placeholder="Last Name" type="text">
+        </p>
+        <p class="formLabel">
+            Email (required) <br>
+            <label for="email"></label>
+            <input id="email" name="email" placeholder="Email" type="text">
+            <label for="confirm_email"></label>
+            <input id="confirm_email" name="confirm_email" placeholder="Confirm Email" type="text">
+        </p>
+        <p class="formLabel">
+            Phone Number<br>
+            <label for="tel"></label>
+            <input id="tel" name="tel" placeholder="(***)-***-****" type="tel">
+        </p>
+        <p class="formLabel"> What is your employment status?<br>
+                <label>
+                <input type="radio" name="choice" class="choice">
+                Employed </label>
+                <label>
+                <input type="radio" name="choice" class="choice">
+                Unemployed
+                </label><br>
+                <label>
+                <input type="radio" name="choice" class="choice">
+                Self-employed        
+                </label>
+                <label>
+                <input type="radio" name="choice" class="choice">
+                    Student
+                </label>
+            </p>
+            <p class="formLabel">
+            Are you 18 years or older?<br>
+            <label>
+                <input type="radio" name="choice" class="choice">
+            Yes
+            </label>
+            <label>
+                    <input type="radio" name="choice" class="choice">
+                No
+                </label>
+            </p>
+     <p class="formLabel"> Are you elligable to work in the United States?<br>
+            <label>
+            <input type="radio" name="choice" class="choice">
+            Yes </label>
+            <label>
+            <input type="radio" name="choice" class="choice">
+            No
+            </label>
+        </p>
+        <p class="formLabel">
+        Upload Your Resume<br>
+            <input type="file" name="resume" accept="file_extension" placeholder="Resume">
+        </p>
+        <input type="submit" class="thanks" value="Submit">
+        <input type="reset" class="thanks" value="Reset">
+    </form>
+    <footer>
+            <a class="secondaryLink" href="images/wireframe.jpg">Wireframe</a>
+            <a class="secondaryLink" href="template.html">Template</a>
+            <a class="secondaryLink" href="about_us.html">About Us</a>
+            <a class="secondaryLink" href="apply.html">Apply</a>
+            <p class="footerText">Copyright 2019 Busy Bean Cafe</p>
+</footer>
+<span class="span2"></span>
+<script src="https://code.jquery.com"></script>
+<script src="java_script/jquery-3.4.1.js"></script>
+<script src="java_script/jquery.validate.js"></script>
+<script src="java_script/thanks.js"></script>
+</body>
+</html>
